@@ -40,7 +40,7 @@ class Bot(BotBase):
 
             embed = Embed(title="Now Online!", description="Bot is now online")
             fields = [("Name", "Value", True),
-                      ("Another field" ,"This field is next to the other one.", True),
+                      ("Another field", "This field is next to the other one.", True),
                       ("A non-inline field", "This field will appear on it's own row", False)]
             for name, value, inline in fields:
                 embed.add_field(name="Name", value="Value", inline=inline)
